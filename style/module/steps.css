@@ -1,0 +1,21 @@
+.steps {
+	display: flex;
+	justify-content: center;
+	gap: 44px;
+	counter-reset: steps-counter;
+}
+.steps__item {
+	display: flex;
+	align-items: center;
+	flex-basis: 243px;
+	gap: 16px;
+	font-size: 18px;
+	line-height: 116.666667%; /* 21/18 */
+}
+.steps__item::before {
+	content: counter(steps-counter);
+	counter-increment: steps-counter;
+	font-size: 92px;
+	line-height: 117.391304%; /* 108/92 */
+	opacity: 0.6;
+}

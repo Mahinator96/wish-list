@@ -1,0 +1,29 @@
+body {
+  font-family: var(--font-main);
+  font-weight: 400;
+  color: var(--text-main);
+  background-color: var(--color-bg);
+}
+.container {
+  max-width: 1792px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+	font-size: 34px;
+	line-height: 117.647059%; /* 40/34 */
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: var(--text-main);
+  color: var(--color-bg);
+	text-transform: capitalize;
+}
+/* TODO: Скрытые секции */
+.wishlist,
+.edit {
+	display: none;
+}

@@ -1,0 +1,14 @@
+/* Сброс и основные стили */
+@import url('style/main/_global.css');
+@import url('style/main/fonts.css');
+@import url('style/main/variables.css');
+@import url('style/main/style.css');
+
+/* Модули */
+@import url('style/module/nav.css');
+@import url('style/module/burger.css');
+@import url('style/module/steps.css');
+
+/* Section */
+@import url('style/section/header.css');
+@import url('style/section/hero.css');

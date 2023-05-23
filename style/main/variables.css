@@ -1,0 +1,10 @@
+:root {
+  /* font-family */
+  --font-main: Roboto, sans-serif;
+  --font-second: Aclonica, sans-serif;
+  /* color text */
+  --text-main: #fff;
+  --text-dark: #282828;
+  /* color decor */
+  --color-bg: #365aba;
+}

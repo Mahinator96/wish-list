@@ -1,0 +1,26 @@
+.hero {
+	display: flex;
+	flex-grow: 1;
+	padding: 20px 0;
+}
+.hero__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hero__title {
+	font-family: var(--font-second);
+	font-weight: 400;
+	font-size: 312px;
+	line-height: 113.461538%; /* 354/312 */
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+.hero__description {
+	font-size: 46px;
+	line-height: 117.391304%; /* 54/46 */
+	max-width: 20.46em;
+	text-align: center;
+	margin-bottom: 135px;
+}
