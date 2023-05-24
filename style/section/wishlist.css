@@ -1,0 +1,19 @@
+.wishlist {
+	padding-bottom: 174px;
+}
+.wishlist__profile {
+	margin-bottom: 44px;
+}
+.wishlist__description {
+	font-size: 38px;
+	line-height: 118.421053%; /* 45/38 */
+	margin-bottom: 77px;
+}
+.wishlist__categories {
+
+}
+.wishlist__items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 50px 40px;
+}

@@ -1,0 +1,33 @@
+.profile {
+	display: flex;
+	align-items: flex-end;
+	gap: 0 107px;
+}
+.profile__avatar {
+	max-width: 437px;
+	width: 100%;
+	border-radius: 50%;
+}
+.profile__content {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-bottom: 78px;
+}
+.profile__fulname {
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 118%; /* 59/50 */
+	margin-bottom: 10px;
+}
+.profile__birthday {
+	font-size: 38px;
+	line-height: 118.421053%; /* 45/38 */
+	margin-bottom: 44px;
+}
+.profile__edit {
+	display: flex;
+	gap: 0 7px;
+	font-size: 32px;
+	line-height: 118.75%; /* 38/32 */
+}

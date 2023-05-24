@@ -22,8 +22,7 @@ body {
   color: var(--color-bg);
 	text-transform: capitalize;
 }
-/* TODO: Скрытые секции */
-.wishlist,
-.edit {
-	display: none;
+.btn__castling {
+	color: var(--text-main);
+	background-color: var(--color-bg);
 }

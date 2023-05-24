@@ -59,9 +59,11 @@ button, input, textarea, fieldset {
   padding: 0;
   border: none;
   background-color: transparent;
-  cursor: pointer;
 }
-:where(input, textarea, fieldset):focus-visible {
+button, input, textarea, select {
+	cursor: pointer;
+}
+:where(input, textarea, fieldset, select):focus-visible {
 	outline: none;
 }
 .visually-hidden {

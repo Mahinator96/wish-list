@@ -1,0 +1,8 @@
+.categories__item:not(:last-child) {
+	margin-bottom: 79px;
+}
+.categories__title {
+	font-size: 50px;
+	line-height: 118%; /* 59/50 */
+	margin-bottom: 38px;
+}

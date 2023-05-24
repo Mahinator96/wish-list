@@ -1,0 +1,25 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	min-height: 607px;
+	font-size: 28px;
+	line-height: 117.857143%; /* 33/28 */
+	color: var(--text-dark);
+	background-color: var(--text-main);
+	border-radius: 15px;
+	padding: 28px 35px 43px;
+}
+.item__img {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 36px;
+}
+.item__title {	
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+.item__price {
+	flex-grow: 1;
+	text-align: center;
+	margin-bottom: 10px;
+}

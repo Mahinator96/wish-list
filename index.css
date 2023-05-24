@@ -4,11 +4,30 @@
 @import url('style/main/variables.css');
 @import url('style/main/style.css');
 
+/* Section */
+@import url('style/section/header.css');
+@import url('style/section/hero.css');
+@import url('style/section/wishlist.css');
+@import url('style/section/edit.css');
+
 /* Модули */
 @import url('style/module/nav.css');
 @import url('style/module/burger.css');
 @import url('style/module/steps.css');
+@import url('style/module/profile.css');
+@import url('style/module/categories.css');
+@import url('style/module/item.css');
 
-/* Section */
-@import url('style/section/header.css');
-@import url('style/section/hero.css');
+/* TODO: Скрытые секции */
+.hero {
+	display: none;
+}
+.wishlist {
+	display: none;
+}
+.edit_profile {
+	display: none;
+}
+.edit_wish {
+	/* display: none; */
+}
