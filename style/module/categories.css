@@ -1,8 +1,36 @@
 .categories__item:not(:last-child) {
-	margin-bottom: 79px;
+  margin-bottom: 79px;
 }
 .categories__title {
-	font-size: 50px;
-	line-height: 118%; /* 59/50 */
-	margin-bottom: 38px;
+  font-size: 50px;
+  line-height: 118%; /* 59/50 */
+  margin-bottom: 38px;
+}
+
+@media (max-width: 1700px) {
+  .categories__item:not(:last-child) {
+    margin-bottom: 84px;
+  }
+  .categories__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 996px) {
+  .categories__title {
+    text-align: center;
+  }
+  .categories__item:not(:last-child) {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 740px) {
+	.categories__title {
+		font-size: 32px;
+		margin-bottom: 22px;
+  }
+  .categories__item:not(:last-child) {
+    margin-bottom: 42px;
+  }
 }

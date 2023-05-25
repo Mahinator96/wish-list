@@ -1,33 +1,105 @@
 .profile {
-	display: flex;
-	align-items: flex-end;
-	gap: 0 107px;
+  display: flex;
+  align-items: flex-end;
+  gap: 0 107px;
 }
 .profile__avatar {
-	max-width: 437px;
-	width: 100%;
-	border-radius: 50%;
+  max-width: 437px;
+  width: 100%;
+  border-radius: 50%;
 }
 .profile__content {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	padding-bottom: 78px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 78px;
 }
 .profile__fulname {
-	font-weight: 400;
-	font-size: 50px;
-	line-height: 118%; /* 59/50 */
-	margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 118%; /* 59/50 */
+  margin-bottom: 12px;
 }
 .profile__birthday {
-	font-size: 38px;
-	line-height: 118.421053%; /* 45/38 */
-	margin-bottom: 44px;
+  font-size: 38px;
+  line-height: 118.421053%; /* 45/38 */
+  margin-bottom: 44px;
 }
 .profile__edit {
-	display: flex;
-	gap: 0 7px;
-	font-size: 32px;
-	line-height: 118.75%; /* 38/32 */
+  display: flex;
+  gap: 0 7px;
+  font-size: 32px;
+  line-height: 118.75%; /* 38/32 */
+}
+
+@media (max-width: 1200px) {
+  .profile {
+    gap: 0 34px;
+  }
+  .profile__avatar {
+    max-width: 466px;
+  }
+  .profile__content {
+    padding-bottom: 145px;
+  }
+  .profile__birthday {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .profile__edit {
+    gap: 0 2px;
+  }
+}
+
+@media (max-width: 996px) {
+  .profile {
+    gap: 0 20px;
+  }
+  .profile__avatar {
+    max-width: 340px;
+  }
+  .profile__content {
+    padding-bottom: 68px;
+  }
+  .profile__birthday {
+    margin-bottom: 24px;
+  }
+  .profile__edit-icon {
+    width: 30px;
+  }
+  .profile__edit {
+		font-size: 24px;
+    gap: 0 7px;
+  }
+}
+
+@media (max-width: 740px) {
+	.profile {
+		flex-direction: column;
+		align-items: center;
+    gap: 16px 0;
+  }
+  .profile__avatar {
+    max-width: 160px;
+  }
+  .profile__content {
+		align-items: center;
+    padding-bottom: 0px;
+  }
+	.profile__fulname {
+		text-align: center;
+		font-size: 36px;
+		margin-bottom: 4px;
+	}
+  .profile__birthday {
+		font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .profile__edit-icon {
+    width: 16px;
+		height: 16px;
+  }
+  .profile__edit {
+		font-size: 14px;
+  }
 }
