@@ -17,17 +17,3 @@
 @import url('style/module/profile.css');
 @import url('style/module/categories.css');
 @import url('style/module/item.css');
-
-/* TODO: Скрытые секции */
-.hero {
-	display: none;
-}
-.wishlist {
-	display: none;
-}
-.edit_profile {
-	display: none;
-}
-.edit_wish {
-	/* display: none; */
-}
