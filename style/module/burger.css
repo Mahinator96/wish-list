@@ -1,5 +1,6 @@
 .burger {
   display: none;
+	z-index: 2;
 }
 
 @media (max-width: 996px) {

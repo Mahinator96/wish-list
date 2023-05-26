@@ -10,7 +10,8 @@
   width: 59px;
   height: 59px;
 }
-.header__burger {
+.header__logo-link {
+	z-index: 2;
 }
 
 @media (max-width: 1700px) {
